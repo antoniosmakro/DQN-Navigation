@@ -1,12 +1,5 @@
-# Solving banana collector with Deep Reinforcement Learning
+# Solving the Unity-Agents banana environment with Deep Reinforcement Learning
 
-**Author:** Doug Trajano
-
-> [LinkedIn](https://www.linkedin.com/in/douglas-trajano/) - [GitHub](https://github.com/DougTrajano)
-
-The problematic is describe in the video below:
-
-[![](http://i.ytimg.com/vi/heVMs3t9qSk/hqdefault.jpg)](https://www.youtube.com/embed/heVMs3t9qSk)
 
 ## 1. Introduction
 
@@ -125,4 +118,4 @@ For the future work I think that we can test a dueling DQN to improve this model
 
 Other implementation that we can do is epsilon greedy policy on Prioritized Memory.
 
-(https://arxiv.org/abs/1511.06581).
+
