@@ -49,23 +49,21 @@ To set up your python environment to run the code in this repository, follow the
 	```bash
 	conda create --name drlnd python=3.6 
 	activate drlnd
-	```
+	``` 
 	
-2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym and install additionaly the **box2d** environment group.  
-	
-3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+2. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
 ```bash
 git clone https://github.com/antoniosmakro/DQN-Navigation.git
 cd DQN-Navigation/python
 pip install .
 ```
 
-4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+3. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
 
-5. Before running the code in the notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+4. Before running the code in the notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
 
 ### Instructions
